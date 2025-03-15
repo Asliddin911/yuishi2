@@ -1,0 +1,54 @@
+body {
+    background-color: #2E4F4F;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    border: 5px solid red; /* Qizil ramka */
+    padding: 0;
+    width: fit-content;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background-color: #5CE1E6;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 0;
+    width: 500px; /* Aniq o‘lcham */
+    box-sizing: border-box;
+}
+
+.divider {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    margin: 0;
+}
